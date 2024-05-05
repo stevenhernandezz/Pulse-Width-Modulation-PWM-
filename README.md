@@ -1,5 +1,5 @@
 # Pulse-Width-Modulation-PWM-
- This project uses the Zybo-Z7 board to implement a Pulse Width Modulation (PWM) to change the intensity of the on board RGB LEDs. 
+ This project uses the Zybo-Z7 development board to implement a Pulse Width Modulation (PWM) to change the intensity of the on board RGB LEDs. 
  
 ## Description
 For this project I made the module for the enhanced PWM architecture as well as a module for the led intensity. I then instantiated the PWM module into my led intensity and chose a resolution of 8 bits for the PWM which is 256 values. From there I made sure the rate for the intensity change was 50 Hz as well as have a system clock of 125 MHz, and PWM frequency of 
